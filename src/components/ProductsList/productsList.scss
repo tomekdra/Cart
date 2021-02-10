@@ -1,0 +1,54 @@
+@import "../../variables.scss";
+.deleteProduct {
+  width: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 30%;
+}
+.productsName {
+  width: 20%;
+}
+
+.price {
+  width: 20%;
+}
+
+.qty {
+  width: 20%;
+}
+input {
+  max-width: 2rem;
+  text-align: center;
+}
+.divider {
+  border-bottom: $border;
+  padding: 1rem 0;
+}
+
+.countBtn {
+  border: $border;
+  width: 25px;
+  height: 25px;
+  background: none;
+  color: grey;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.whiteSpace {
+  width: 38%;
+}
+
+.updateBtnPos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.counter {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+.shippingBox {
+  border: $border;
+
+  font-size: 14px;
+  color: black;
+  padding: 0.8rem;
+  margin: 1rem;
+}
+
+.totalBox {
+  border: $border;
+  padding-bottom: 1rem;
+
+  margin: 1rem;
+  color: grey;
+  font-size: 14px;
+  p {
+    font-weight: 500;
+  }
+}
+
+.cartBox {
+  border-bottom: $border;
+  padding: 0.8rem;
+  color: black;
+  font-weight: 500;
+}
+
+.divider {
+  margin: 1rem;
+}
+
+.totalBox button {
+  width: 90%;
+}
+
+.bigger {
+  font-size: 18px;
+}
+p.bold {
+  font-weight: 700;
+}
